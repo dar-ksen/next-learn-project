@@ -1,8 +1,10 @@
+import MainContainer from "../components/MainContainer";
+
 const Index = () => {
     return (
-        <div>
+        <MainContainer title={ 'Главная страница' }>
             <h1>Главная страница</h1>
-        </div>
+        </MainContainer>
     );
 };
 
